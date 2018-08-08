@@ -1,0 +1,26 @@
+{
+    "docType": "jts",
+    "version": "1.0",
+    "header": {
+        "columns": {
+            "0": {
+                "id": "7856a34r2d",
+                "name": "Raw Value",
+                "dataType": "NUMBER",
+                "renderType": "VALUE",
+                "format": "#######",
+                "aggregate": "NONE"
+            },
+			"1": {
+                "id": "7856a34r2d",
+                "name": "Corrected Weight",
+                "dataType": "NUMBER",
+                "renderType": "VALUE",
+                "format": "####",
+                "aggregate": "NONE"
+            }			
+        }
+    },
+    "data": [
+    ]
+}

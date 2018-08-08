@@ -1,0 +1,10 @@
+sudo echo 133 > /sys/class/gpio/export
+sudo echo out > /sys/class/gpio/gpio133/direction
+
+while [true]
+do
+    sudo echo 0 > /sys/class/gpio/gpio133/value
+    sudo echo 1 > /sys/class/gpio/gpio133/value
+done
+
+sudo echo 133 > /sys/class/gpio/unexport
